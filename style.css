@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 5%;
+    margin: 7%;
+    background-image: url("/resource/top-banner.png");
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -23,6 +25,7 @@ h1{
 
 .profile-pic{
     margin-left: 13%;
+    margin-top: 1%;
 }
 
 h3{
@@ -32,4 +35,25 @@ h3{
 
 p{
     margin: 0px;
+}
+
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.link-btn:hover{
+    background-image: #FF3E8A;
+    box-shadow: 10px 20px 30px lightsalmon;
+    color: #fff;
+    transform: translateY(-7px);
+    transition: all .8s ease 0s;
+
+}
+
+.hire-btn{
+    margin-top: 35px;
 }
