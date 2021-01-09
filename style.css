@@ -5,7 +5,7 @@ body{
 }
 
 .developer-image{
-    background-image: url("/resource/top-banner.png");
+    background-image: url("resource/top-banner.png");
     background-repeat: no-repeat;
 }
 
@@ -76,7 +76,7 @@ p{
 }
 
 .container2{
-    background-image: url("/resource/dream-bg.png");
+    background-image: url("resource/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 240px;
