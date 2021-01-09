@@ -37,6 +37,10 @@ h1{
     justify-content: end;
 }
 
+h2{
+    margin: 0px;
+}
+
 h3{
     margin-top: 25px;
     font-size: 25px;
@@ -86,9 +90,34 @@ p{
 
 .card{
     width: 40%;
-
+    box-shadow: 10px 10px 40px gray;
+    padding: 2.5%;
 }
 
 .container3{
     justify-content: center;
+    padding-top: 3.5%;
+    background-image: url("resource/exp-bg.png");
+    background-position-y: 35%;
+    background-position-x: -0.5%;
+    background-repeat: no-repeat;
+}
+
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #7C31D7, #FF257A) ;
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5%;
+    background-image: linear-gradient(80deg, #7C31D7,tomato,lightsalmon, #FF257A, lightsalmon) ;
+    padding: 2%;
 }
